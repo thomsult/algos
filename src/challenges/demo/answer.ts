@@ -6,11 +6,11 @@
  */
 
 // ↓ uncomment bellow lines and add your response!
-/*
+
 export default function ({ topics }: { topics: Topic[] }): Topic[] {
-    return [];
+    return topics.sort((a, b) => b.upvotes - a.upvotes).reverse();
 }
-*/
+
 
 // used interfaces, do not touch
 export interface Topic {
